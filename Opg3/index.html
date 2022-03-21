@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--form-->
+    <form name="formname" id="form">
+
+        <!--Tekstfelt for navn og alder-->
+        <label>Navn:</label> <input type="text" name="name" id="name">
+        <label>Alder:</label> <input type="number" name="age">
+        <input type="submit" value="submit">  <br>
+
+        <!--Knapper for valg av drikke-->
+        <label>Drikke:</label>
+        <input type="radio" name="drink" value="cola" id="drikk1"> Cola
+        <input type="radio" name="drink" value="pepsi" id="drikk2"> Pepsi
+        <br>
+
+        <!--Checkbokser for valg av mat -->
+        <label>Mat:</label>
+        <label>Is</label><input type="checkbox" name="food" value="is">
+        <label>Sitron</label><input type="checkbox" name="food" value="sitron">
+        <label>Drue</label><input type="checkbox" name="food" value="drue">
+
+
+    </form>
+
+    <textarea id="result"></textarea>
+    <script src="script3.js"></script>
+</body>
+
+</html>
