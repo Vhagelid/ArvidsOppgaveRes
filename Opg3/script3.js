@@ -24,7 +24,9 @@ formEl.addEventListener("submit", function (e) {
     // Løkke som sjekker om radio knapper er huket av, og skriver ut verdien av radioknappene og verdien til de andre elementene ut i tekstfeltet
     for (i = 0; i < ele.length; i++) {
         if (ele[i].checked)
-            document.getElementById("result").innerHTML = "Hei jeg heter " + name + age + "Min favoritt brus er " + ele[i].value + '\r\n' + boxValue;
+            document.getElementById("result").innerHTML = "Hei jeg heter "
+             + name + age + "Min favoritt brus er " + ele[i].value + '\r\n'
+            + boxValue;
 
 
     }
